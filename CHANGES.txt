@@ -1,3 +1,9 @@
+1.2
+---
+
+- Add dependent data analysis library
+
+
 1.1
 ---
 

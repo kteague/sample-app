@@ -5,19 +5,48 @@
 
     <title>Sample Application</title>
 
+<style>
+body {
+    background-color: #e1e1e1;
+}
+
+h1 {
+    color: #333366;
+    margin-left: 20px;
+}
+
+h2 {
+    color: #336666;
+    margin-left: 20px;
+}
+
+div {
+  background-color: white;
+  margin-left: 20px;
+  padding: 1em;
+}
+
+</style>
+
   </head>
 
   <body>
 
     <h1>Hello World!</h1>
 
-    <p>This is the Sample Applicaiton.</p>
+    <div>This is the Sample Application.</div>
+
+    <h2>Data Analysis pipeline</h2>
     
-    <h2>Running these libraries and versions:</h2>
-      
+    <div>Running the data analysis pipeline version <b tal:content="data_analysis_version" />.</div>
+    
+    <h2>Dependent libraries and versions</h2>
+
+    <div>
     <ul>
       <li tal:repeat="lib libs" tal:content="lib">Library (version)</li>
     </ul>
+    </div>
 
   </body>
 </html>

@@ -15,7 +15,7 @@ To install this application for development, first install Python 3.5, then run:
     git clone https://github.com/kteague/sample-app.git sample-app
     cd sample-app
     pip install pyramid==1.5.7
-    pip install -e .
+    pip install -e . --find-links=data_analysis/dist
 
 Then run the HTTP server with:
 
