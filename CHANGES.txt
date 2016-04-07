@@ -1,4 +1,9 @@
-unreleased
-----------
+1.1
+---
+
+- Display installed libraries
+
+1.0
+---
 
 -  Initial release
