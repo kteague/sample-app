@@ -16,7 +16,7 @@ requires = [
     ]
 
 setup(name='sample-app',
-      version='1.0dev',
+      version='1.0',
       description='Sample web application',
       long_description=README + '\n\n' + CHANGES,
       author='Kevin Teague',

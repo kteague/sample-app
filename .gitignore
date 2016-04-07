@@ -5,3 +5,5 @@ develop-eggs
 eggs
 __pycache__
 *.egg-info
+lib
+pyvenv.cfg
