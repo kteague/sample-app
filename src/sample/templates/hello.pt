@@ -9,9 +9,15 @@
 
   <body>
 
-    <h1>Hello World</h1>
+    <h1>Hello World!</h1>
 
-    <p>Sample application</p>
+    <p>This is the Sample Applicaiton.</p>
+    
+    <h2>Running these libraries and versions:</h2>
+      
+    <ul>
+      <li tal:repeat="lib libs" tal:content="lib">Library (version)</li>
+    </ul>
 
   </body>
 </html>
